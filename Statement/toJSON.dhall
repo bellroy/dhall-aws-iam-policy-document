@@ -1,12 +1,22 @@
-let Prelude = ../deps/Prelude.dhall
+let Prelude =
+      ../deps/Prelude.dhall
+        sha256:397ef8d5cf55e576eab4359898f61a4e50058982aaace86268c62418d3027871
 
-let Principal = ../Principal/package.dhall
+let Principal =
+      ../Principal/package.dhall
+        sha256:20741303b4f8931ce98c6b8320ea86547e6ef127a0e4c6efb1b1da253106a024
 
-let Condition = ../Condition/package.dhall
+let Condition =
+      ../Condition/package.dhall
+        sha256:e1b9c216875b17595a88352a10602656c69888b55997f492a403d01d5e5417da
 
-let Resource = ../Resource.dhall
+let Resource =
+      ../Resource.dhall
+        sha256:814f7d7b765ef36f0f2b713ee4cf140b2c7e3ecf5cabe0b0ad2d3436884dc290
 
-let Schema = ./Schema.dhall
+let Schema =
+      ./Schema.dhall
+        sha256:b82c0b7001b93c6563bd4f95b523c52c2c546d8f3e2c88b007e09a6f53ff56da
 
 let JSON = Prelude.JSON
 

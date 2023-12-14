@@ -1,8 +1,12 @@
-let Prelude = ../../deps/Prelude.dhall
+let Prelude =
+      ../../deps/Prelude.dhall
+        sha256:397ef8d5cf55e576eab4359898f61a4e50058982aaace86268c62418d3027871
 
 let Map/mapMaybe = Prelude.Map.mapMaybe
 
-let Schema = ./Schema.dhall
+let Schema =
+      ./Schema.dhall
+        sha256:5594336c5d9ca22a1d98e818b156cdb88ed3f8765434e1cc065b44795353a86f
 
 let JSON = Prelude.JSON
 

@@ -1,9 +1,13 @@
 {-|
 https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_condition_operators.html
 -}
-let Prelude = ../deps/Prelude.dhall
+let Prelude =
+      ../deps/Prelude.dhall
+        sha256:397ef8d5cf55e576eab4359898f61a4e50058982aaace86268c62418d3027871
 
-let ConditionArgs = ./ConditionArgs.dhall
+let ConditionArgs =
+      ./ConditionArgs.dhall
+        sha256:d88cf89660400ae41df90770ba4a1f3e4ab460e98c6849456711a756f411bb1c
 
 let JSON = Prelude.JSON
 
