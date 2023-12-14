@@ -1,7 +1,7 @@
 {-|
 https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_condition_operators.html
 -}
-let Prelude = ../../../deps/Prelude.dhall
+let Prelude = ../deps/Prelude.dhall
 
 let ConditionArgs = ./ConditionArgs.dhall
 

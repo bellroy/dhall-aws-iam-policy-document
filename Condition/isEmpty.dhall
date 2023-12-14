@@ -1,4 +1,4 @@
-let Prelude = ../../../deps/Prelude.dhall
+let Prelude = ../deps/Prelude.dhall
 
 let Condition = ./Schema.dhall
 

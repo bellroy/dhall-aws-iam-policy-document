@@ -1,6 +1,6 @@
-let Prelude = ../../../deps/Prelude.dhall
+let Prelude = ../deps/Prelude.dhall
 
-let Map/mapMaybe = ../../../Map/mapMaybe.dhall
+let Map/mapMaybe = Prelude.Map.mapMaybe
 
 let Condition = ./Schema.dhall
 

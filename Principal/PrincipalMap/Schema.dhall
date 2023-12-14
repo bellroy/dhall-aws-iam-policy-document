@@ -1,4 +1,4 @@
-let Prelude = ../../../../deps/Prelude.dhall
+let Prelude = ../../deps/Prelude.dhall
 
 let JSON = Prelude.JSON
 

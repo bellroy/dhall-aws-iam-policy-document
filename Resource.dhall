@@ -4,7 +4,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_not
 
 `All` := `Resource: *`
 -}
-let Prelude = ../../deps/Prelude.dhall
+let Prelude = ./deps/Prelude.dhall
 
 let JSON = Prelude.JSON
 

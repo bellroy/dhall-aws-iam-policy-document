@@ -1,7 +1,7 @@
 {-|
 Condition values for each condition key.
 -}
-let Prelude = ../../../deps/Prelude.dhall
+let Prelude = ../deps/Prelude.dhall
 
 let JSON = Prelude.JSON
 
