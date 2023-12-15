@@ -1,1 +1,2 @@
-let package = ./src/package.dhall in package
+./src/package.dhall
+  sha256:3030320caebd6a564f28327ac90cced36518ca6ff229bb0c4eef07e7142c02f2
