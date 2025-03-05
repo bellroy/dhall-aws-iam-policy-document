@@ -10,7 +10,7 @@ unpleasant.
 AWS can be pretty finnicky about whether fields are required or
 optional. Example: some services need statement IDs in resource
 policies, but most of the time they're optional. This library's
-objective is therefore *not* to create a perfect,
+objective is therefore _not_ to create a perfect,
 correct-by-construction type for each place policy documents are used.
 Instead, we provide a single broad type which should allow you to
 generate whatever policy JSON you might need.
@@ -18,7 +18,7 @@ generate whatever policy JSON you might need.
 ## Sample Usage
 
 ```dhall
-let Prelude = https://raw.githubusercontent.com/dhall-lang/dhall-lang/v23.0.0/Prelude/package.dhall
+let Prelude = https://raw.githubusercontent.com/dhall-lang/dhall-lang/v23.1.0/Prelude/package.dhall
 
 let JSON = Prelude.JSON
 
